@@ -2,6 +2,8 @@ body {
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
+  background-color: rgb(32,33,36);
+  color: white;
 }
 
 .app-container {
@@ -29,12 +31,15 @@ input {
   padding: 10px;
   margin-bottom: 10px;
   box-sizing: border-box;
+  border-radius: 10px;
+
 }
 
 button {
   padding: 10px;
   margin-top: 10px;
   cursor: pointer;
+  border-radius: 10px;
 }
 
 .update-button {
@@ -47,6 +52,8 @@ button {
   background-color: #3498db;
   color: white;
   border: none;
+  border-radius: 10px;
+
 }
 
 .edit-button,
@@ -55,4 +62,6 @@ button {
   color: white;
   border: none;
   margin-left: 5px;
+  border-radius: 10px;
+
 }
