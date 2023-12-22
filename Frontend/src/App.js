@@ -109,6 +109,7 @@ function App() {
           name="chassisNumber"
           value={newVehicle.chassisNumber}
           onChange={handleInputChange}
+          placeholder="Chassis Number"
         />
         <label>Registration Number:</label>
         <input
@@ -116,7 +117,7 @@ function App() {
           name="registrationNumber"
           value={newVehicle.registrationNumber}
           onChange={handleInputChange}
-          placeholder=""
+          placeholder="Registration Number"
         />
 
         <label>Last Location:</label>
